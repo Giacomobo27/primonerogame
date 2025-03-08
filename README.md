@@ -1,81 +1,108 @@
 # **Roma Termini Primo Nero Adventure**
 
-This is my **Java game project** for my game development class. I’m currently **7 hours late**, and there's still a lot to finish.
+This is my **Java game project** for my game development class (Game engine made from scratch). Just finished.
 
 ## **Project Structure**
 - **Model** → Handles game logic.
 - **Viewer** → Manages UI.
 - **MainWindow** → Controls high-level state transitions.
-- **battle.java** → Currently not used.
+- **Controller.java** → Controls input keyboard.
 
 ---
 
 ## **Development Roadmap**
 
-### **SPRINT 1 – Core Battle System**
-- **Implement `drawBattleScreen()`**
-  - Buttons linked to Model (✅ Done)
-  - Battle animations (✅ Done)
+## **🛠 SPRINT 1 - Core Battle System Implementation**
+### **🎯 Tasks Completed**
+✅ **Implement `drawBattleScreen()`**  
+   - Designed and linked all buttons to the **model**.  
+   - Added **animations** for battle actions.  
+✅ **Implement `battleIsOver()`**  
+✅ **Implement `battlelogic()`**  
+✅ **Turn-Based System**  
+   - **Enemy Attacks Implemented:**  
+     - Attack ✔  
+     - Beg ✔ *(Audio: Primo Nero - Found & Inserted)*  
+     - Seduce ✔ *(Heart Floating Animation - Audio Inserted)*  
+     - Steal ✔ *(Money Flow Animation - Audio Inserted)*  
+✅ **Battle Animations:** *(Created using LibreSprite & manually inserted)*
+   - **Attack to enemy:** *Gun Shooting Animation* ✔  
+   - **Seduce:** *Heart Floating Animation* ✔  
+   - **Steal Success:** *Money Flow Animation* ✔  
+   - **Police Attack to Player:** *Baton Strike* ✔  
+   - **Drunk NPC Attack:** *Shit Throw* ✔ *(Audio Inserted)*  
+✅ **Implemented Enemy AI Animation** *(Timers used for inactivity-based attack triggers)*  
+✅ **Boss (Black Enemy) - Gun Shooting Attack** *(Sprite Created - To be inserted later)*  
 
-- **Implement `battleIsOver()`** (✅ Done)
-- **Implement turn-based battle system** (✅ Done)
-  - Enemy attacks (✅ Done)
-  - Player actions:
-    - Attack (✅ Done)
-    - Beg (✅ Done)
-    - Seduce (✅ Done)
-    - Steal (✅ Done)
-
-- **Battle Animations (via Model)**
-  - Attack: Gun shooting (✅ Done)
-  - Seduce: Floating heart (✅ Done)
-  - Steal: Money flow (✅ Done)
-  - Police Attack: Baton strike (✅ Done)
-  - Drunk Attack: Shit throw (✅ Done)
-  - Boss (Black Mob): Gun shooting (⏳ Later)
-
-- **Implemented inactivity timer for enemy animations**
-
-Finished at **5:20 AM**.
+**⏱️ Sprint 1 Finished at 5:20 AM**  
 
 ---
 
-### **SPRINT 2 – Expanding the World**
-- **New Features**
-  - Second player (dog)
-    - Roams the map and barks.
-    - Buffs player’s attack or health if barked enough.
+## **🐶 SPRINT 2 - Second Player & Audio Enhancements**
+### **🎯 Tasks Completed**
+✅ **Second Player (Dog Companion) Implementation**  
+   - Moves around independently.  
+   - **Bark mechanic:** Buffs player (attack/life boost).  
+   - **Collision system added** to prevent map clipping.  
+✅ **Sound Enhancements:**  
+   - Background **battle music:** *Primo Nero Battle Sound* ✔  
+   - **Enemy battle sounds** ✔  
+   - **Implemented multithreading** for background music to **prevent lag**.  
 
-- **Audio Enhancements**
-  - Sound effects: "Primo Nero" voice lines, background music.
-  - Enemy battle sounds.
-
-- **Game Features**
-  - Difficulty selection at start.
-
-- **UI Improvements**
-  - Prettier buttons, health bar, and text.
-  - Add Black Mob enemy.
-
-- **GameOver Screen**
-  - Functional but needs polish (restart + exit buttons).
+✅ **MAJOR BUG FIXED:** **Battle Scene Buttons not responding properly**  
 
 ---
 
-### **SPRINT 3 – Finishing the Game**
-- **Final Graphics & Gameplay**
-  - Detailed maps, design Roma Termini background pixel style
-  - Endgame mechanics:
-    - Earn enough points before the train departs.
-    - Use points to buy a ticket and escape Roma Termini.
+## **🎨 SPRINT 3 - Visual Improvements & Map Mechanics**
+### **🎯 Tasks Completed**
+✅ **Graphics Overhaul:**  
+   - **Upgraded button designs** for UI consistency.  
+   - **Health bar redesign** for clarity.  
+✅ **Implemented Scaling & Player Limits**  
+   - **Player Movement Scaling:** Added **depth effect** to character movement.  
+   - **Bullet Mechanics Fixed & Optimized**  
+✅ **Enhanced Background Mechanics**  
+   - **Map Transition Logic Implemented** *(Back2 to Back7)* ✔  
+   - **Collision Boundaries Set** *(Player & Enemies stay within valid zones)*  
+   - **Dynamic Enemy Spawn System:**  
+     - Enemy logic (mob spawn position) ✔  
+     - Player logic (map boundaries for both P1 & P2) ✔  
+     - Game logic (map transitions) ✔  
+
+### **📌 End Goal System Implemented**
+✅ **Timer Starts at "Start Game"**  
+✅ **Win/Lose Conditions:**  
+   - **If late:** Transition to *Back6* *(Train Missed - Game Over)* ✔  
+   - **If on time:** Transition to *Back7* *(Reached Train - Victory)* ✔  
+
+**⏱️ Sprint 3 Finished at 5:53 AM**  
 
 ---
 
-### **Final Steps – Cleanup & Submission**
-- Document copied assets.
-- Record gameplay video.
-- Clean up the code.
+## **🎵 SPRINT 4 - Final Enhancements & Polish**
+### **🎯 Tasks Completed**
+✅ **Background Music:** *GTA Rap Music Added* ✔  
+✅ **Difficulty Options Implemented in Menu** *(Affects mission time limits: 180s -> 120s -> 60s)*  
+✅ **GameOver Window Fix:** Ensures **proper UI rendering** and transitions.  
+✅ **Sound Level Balancing:** Optimized volume for all sound effects.  
+✅ **Intro Fade-In Effect Added** *(Smooth transition from black screen to game start)*  
+✅ **Protagonist Character Color Change** *(Changed to White for better visibility & contrast)*  
 
+---
+
+## **🚀 Extra Features & Future Improvements**
+🔲 **New Mob Type (Potential additional enemy AI)**  
+🔲 **Gypsy NPC - "Smoke Weed" Action** *(Experimental mechanic)*  
+🔲 **Enemy Spawning Behavior Improvements** *(Prevent overcrowding & refine enemy placement logic)*  
+🔲 **Train Arrival Sounds:** Add **dynamic audio cues** to signal **impending train departure**.  
+
+---
+
+## **📌 FINAL TASKS**
+🔲 **Write Project Report** *(Document copied resources & credits properly)*  
+🔲 **Record Gameplay Video** *(Showcase game mechanics & features for submission)*  
+
+---
 # **Roma Termini Adventure**
 
 ## **Overview**
@@ -155,7 +182,8 @@ Players can **change difficulty before starting**:
 ✅ **Player 1:**  
    - **WASD for movement**  
    - **SPACEBAR to shoot money**  
-   - **F for celebration sounds**  
+   - **F for celebration sounds**
+     
 ✅ **Player 2 (Dog Companion):**  
    - **Arrow keys (4856) for movement**  
    - **0 for barking**  
@@ -166,48 +194,30 @@ Players can **change difficulty before starting**:
 ## **How to Run the Game**
 
 ### **🛠 Requirements**
-- **Java JDK 17+**  
-- **JAR file execution capability**  
-- **A device with a keyboard for input**  
+- **Java JDK 8+**  
+- **A device with a keyboard for input**
+  
 
-### **💾 Running the Game from the JAR File**
-To play the game, use the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:  
+### **💾 Running the Game for Noobies**
+
+ - Download the whole zip file into your computer
+ - Extract the content
+ - Go inside the folder RomaTermini without moving any file inside
+ - Double click on RomaTermini.jar to run the game
+
+### **if clicking doesnt run the game:
+ - use then the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:
 
 ```bash
-java -jar RomaTermmi.jar
+java -jar RomaTermini.jar
 ```
 
-If double-clicking the **JAR file** does not work, ensure that **Java is installed and set as the default program for .jar files**.  
 
 ### **🖥️ Running in VS Code**
 If you prefer to run the game from VS Code:  
 1. Open the **project folder** in VS Code.  
 2. Ensure you have **Java Extensions** installed.  
 3. Locate the `MainWindow.java` file and **run it**.  
-
----
-
-## **How to Create an Executable JAR**
-To package the game into a runnable **JAR file**, follow these steps:
-
-1. Compile the project:
-   ```bash
-   javac -d bin -cp src src/MainWindow.java
-   ```
-2. Navigate to the `bin` directory:
-   ```bash
-   cd bin
-   ```
-3. Create the JAR file:
-   ```bash
-   jar cfe RomaTerminiAdventure.jar MainWindow *
-   ```
-4. Run the game using:
-   ```bash
-   java -jar RomaTerminiAdventure.jar
-   ```
-
-If using **VS Code**, you can use the **Java Extension Pack** to build the JAR file via the **Export Runnable JAR** option.
 
 ---
 
