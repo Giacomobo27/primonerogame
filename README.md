@@ -177,9 +177,9 @@ Players can **change difficulty before starting**:
  - Go inside the folder RomaTermini without moving any file inside
  - Double click on RomaTermini.jar to run the game
 
-##if clicking doesnt run the game:
+### **if clicking doesnt run the game:
  - use then the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:
- - 
+
 ```bash
 java -jar RomaTermmi.jar
 ```
