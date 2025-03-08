@@ -182,7 +182,8 @@ Players can **change difficulty before starting**:
 ✅ **Player 1:**  
    - **WASD for movement**  
    - **SPACEBAR to shoot money**  
-   - **F for celebration sounds**  
+   - **F for celebration sounds**
+     
 ✅ **Player 2 (Dog Companion):**  
    - **Arrow keys (4856) for movement**  
    - **0 for barking**  
