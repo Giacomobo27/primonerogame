@@ -209,7 +209,7 @@ Players can **change difficulty before starting**:
  - use then the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:
 
 ```bash
-java -jar RomaTermmi.jar
+java -jar RomaTermini.jar
 ```
 
 
