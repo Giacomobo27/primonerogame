@@ -1,6 +1,6 @@
 # **Roma Termini Primo Nero Adventure**
 
-This is my **Java game project** for my game development class. I’m currently **7 hours late**, and there's still a lot to finish.
+This is my **Java game project** for my game development class. Just finished.
 
 ## **Project Structure**
 - **Model** → Handles game logic.
