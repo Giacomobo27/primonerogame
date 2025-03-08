@@ -167,47 +167,29 @@ Players can **change difficulty before starting**:
 
 ### **🛠 Requirements**
 - **Java JDK 17+**  
-- **JAR file execution capability**  
-- **A device with a keyboard for input**  
+- **A device with a keyboard for input**
+  
 
-### **💾 Running the Game from the JAR File**
-To play the game, use the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:  
+### **💾 Running the Game for Noobies**
 
+ - Download the whole zip file into your computer
+ - Extract the content
+ - Go inside the folder RomaTermini without moving any file inside
+ - Double click on RomaTermini.jar to run the game
+
+##if clicking doesnt run the game:
+ - use then the following command in the **terminal (Mac/Linux) or command prompt (Windows)**:
+ - 
 ```bash
 java -jar RomaTermmi.jar
 ```
 
-If double-clicking the **JAR file** does not work, ensure that **Java is installed and set as the default program for .jar files**.  
 
 ### **🖥️ Running in VS Code**
 If you prefer to run the game from VS Code:  
 1. Open the **project folder** in VS Code.  
 2. Ensure you have **Java Extensions** installed.  
 3. Locate the `MainWindow.java` file and **run it**.  
-
----
-
-## **How to Create an Executable JAR**
-To package the game into a runnable **JAR file**, follow these steps:
-
-1. Compile the project:
-   ```bash
-   javac -d bin -cp src src/MainWindow.java
-   ```
-2. Navigate to the `bin` directory:
-   ```bash
-   cd bin
-   ```
-3. Create the JAR file:
-   ```bash
-   jar cfe RomaTerminiAdventure.jar MainWindow *
-   ```
-4. Run the game using:
-   ```bash
-   java -jar RomaTerminiAdventure.jar
-   ```
-
-If using **VS Code**, you can use the **Java Extension Pack** to build the JAR file via the **Export Runnable JAR** option.
 
 ---
 
