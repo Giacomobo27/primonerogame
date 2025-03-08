@@ -518,17 +518,21 @@ public void setFadeOpacity(int opacity) {
 
 	
 	private void drawEnemies(int x, int y, int width, int height, String texture, Graphics g) {
-		if(mapnumber==1 || mapnumber==5){
-			width=width+50;
-			height=height+50;
-		}
+		// u could use x y given to scale the enemies too
 		if(mapnumber==2 || mapnumber==4){
-			width=width+70;
-			height=height+70;
+			int posy= y;
+			width=width+100-(1000-posy)/10;
+			height=height+100-(1000-posy)/10;
+		}
+		if(mapnumber==1 || mapnumber==5){
+			int posy= y;
+			width=width+70-(1000-posy)/10;
+			height=height+70-(1000-posy)/10;
 		}
 		if(mapnumber==3 || mapnumber==6 || mapnumber== 7){
-			width=width+100;
-			height=height+100;
+			int posy= y;
+			width=width+250-(1000-posy)/3;
+			height=height+250-(1000-posy)/3;
 		}
 		File TextureToLoad = new File(texture);  //should work okay on OSX and Linux but check if you have issues depending your eclipse install or if your running this without an IDE 
 		try {
@@ -580,8 +584,8 @@ public void setFadeOpacity(int opacity) {
 		}
 		if(mapnumber==3 || mapnumber==6 || mapnumber== 7){
 			int posy= ( int)gameworld.getPlayer().getCentre().getY();
-			width=width+130-(1000-posy)/10;
-			height=height+130-(1000-posy)/10;
+			width=width+250-(1000-posy)/3;
+			height=height+250-(1000-posy)/3;
 		}
 		File TextureToLoad = new File(texture);  //should work okay on OSX and Linux but check if you have issues depending your eclipse install or if your running this without an IDE 
 		try {
@@ -617,8 +621,8 @@ public void setFadeOpacity(int opacity) {
 		}
 		if(mapnumber==3 || mapnumber==6 || mapnumber== 7){
 			int posy= ( int)gameworld.Player2.getCentre().getY();
-			width=width+130-(1000-posy)/10;
-			height=height+130-(1000-posy)/10;
+			width=width+200-(1000-posy)/6;
+			height=height+200-(1000-posy)/6;
 		}
 		File TextureToLoad = new File(texture);  //should work okay on OSX and Linux but check if you have issues depending your eclipse install or if your running this without an IDE 
 		try {

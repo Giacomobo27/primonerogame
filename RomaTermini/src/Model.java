@@ -577,8 +577,8 @@ public boolean battleIsOver() {
 		if(Score>70 || viewer.mapnumber==3){
 			// to spawn less mobs after high score
 			stop=true;
-			int r=(int)Math.random()*4;
-			if(r==3) stop= false;
+			int r=(int)Math.random()*3;
+			if(r==2) stop= false;
 		}
 		if(viewer.mapnumber==7) stop=true; // no mob in final screen
 		//for debugging
