@@ -6,7 +6,7 @@ This is my **Java game project** for my game development class (Game engine made
 - **Model** → Handles game logic.
 - **Viewer** → Manages UI.
 - **MainWindow** → Controls high-level state transitions.
-- **battle.java** → Currently not used.
+- **Controller.java** → Controls input keyboard.
 
 ---
 
