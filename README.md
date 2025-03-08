@@ -1,6 +1,6 @@
 # **Roma Termini Primo Nero Adventure**
 
-This is my **Java game project** for my game development class. Just finished.
+This is my **Java game project** for my game development class( Game engine made from scratch). Just finished.
 
 ## **Project Structure**
 - **Model** → Handles game logic.
