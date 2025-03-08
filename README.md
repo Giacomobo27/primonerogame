@@ -11,7 +11,6 @@ This is my **Java game project** for my game development class (Game engine made
 ---
 
 ## **Development Roadmap**
----
 
 ## **🛠 SPRINT 1 - Core Battle System Implementation**
 ### **🎯 Tasks Completed**
