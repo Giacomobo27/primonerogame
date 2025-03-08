@@ -194,7 +194,7 @@ Players can **change difficulty before starting**:
 ## **How to Run the Game**
 
 ### **🛠 Requirements**
-- **Java JDK 17+**  
+- **Java JDK 8+**  
 - **A device with a keyboard for input**
   
 
