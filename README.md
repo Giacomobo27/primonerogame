@@ -2,6 +2,8 @@
 
 This is my **Java game project** for my game development class (Game engine made from scratch). Just finished.
 
+![ ](./images/k.png)
+
 ## **Project Structure**
 - **Model** → Handles game logic.
 - **Viewer** → Manages UI.
