@@ -36,6 +36,8 @@ This is my **Java game project** for my game development class (Game engine made
 ✅ **Implemented Enemy AI Animation** *(Timers used for inactivity-based attack triggers)*  
 ✅ **Boss (Black Enemy) - Gun Shooting Attack** *(Sprite Created - To be inserted later)*  
 
+![ ](./images/b.png)
+
 **⏱️ Sprint 1 Finished at 5:20 AM**  
 
 ---
@@ -51,6 +53,7 @@ This is my **Java game project** for my game development class (Game engine made
    - **Enemy battle sounds** ✔  
    - **Implemented multithreading** for background music to **prevent lag**.  
 
+![ ](./images/dog.png)
 ✅ **MAJOR BUG FIXED:** **Battle Scene Buttons not responding properly**  
 
 ---
@@ -77,6 +80,7 @@ This is my **Java game project** for my game development class (Game engine made
    - **If late:** Transition to *Back6* *(Train Missed - Game Over)* ✔  
    - **If on time:** Transition to *Back7* *(Reached Train - Victory)* ✔  
 
+![ ](./images/c.png)
 **⏱️ Sprint 3 Finished at 5:53 AM**  
 
 ---
@@ -90,6 +94,7 @@ This is my **Java game project** for my game development class (Game engine made
 ✅ **Intro Fade-In Effect Added** *(Smooth transition from black screen to game start)*  
 ✅ **Protagonist Character Color Change** *(Changed to White for better visibility & contrast)*  
 
+![ ](./images/a.png)
 ---
 
 ## **🚀 Extra Features & Future Improvements**
@@ -169,6 +174,8 @@ Players can **change difficulty before starting**:
 ✅ **Pixel-edited backgrounds** made from **real photos of Roma Termini Station** (taken by a friend in Rome).  
 ✅ **Collision boundaries** prevent movement outside playable areas.  
 ✅ **Smooth scene transitions** (fade-in intro, battle-to-overworld transition).  
+
+![ ](./images/screen.png)
 
 ### **🔊 Sound & Animation**
 ✅ **Background Music:** *Boom Bap Freestyle x Old School Rap Type Beat - Banknotes*  
